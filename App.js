@@ -30,7 +30,7 @@ import ContentScreen from './screens/ContentScreen'
 
 const App: () => React$Node = () => {
 
-  const[url, setUrl] = useState('https://blogs.windows.com/');
+  const[url, setUrl] = useState('https://devblogs.microsoft.com/surface-duo');
 
 	const getUrlFromItem = (data) => {
 	  console.log(data);
@@ -40,11 +40,8 @@ const App: () => React$Node = () => {
   return (
     <View>
       <TwoPaneView panePriority='pane1' panePriorityVerticalSpanning='pane1' >
-
         <FeedScreen getUrlCallback={getUrlFromItem} />
-
         <ContentScreen url={url} />
-
       </TwoPaneView>
     </View>
   );
