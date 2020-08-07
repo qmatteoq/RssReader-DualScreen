@@ -97,9 +97,9 @@ const styles = StyleSheet.create({
   },
   body: {
     flex: 1,
-    width: 300,
+    width: 540,
     backgroundColor: '#f0f0f0',
-    maxWidth: 350
+    maxWidth: 550
   },
   item: {
     backgroundColor: '#ff7675',
