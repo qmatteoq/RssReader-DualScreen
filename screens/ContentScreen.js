@@ -7,6 +7,7 @@ const ContentScreen: () => React$Node = (props) => {
       <View style={{ flex: 1 }}>
         <WebView
           source={ { uri: props.url } }
+          style={ { width: 505}}
         />
       </View>
     );
